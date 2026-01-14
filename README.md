@@ -1,6 +1,9 @@
 # Demand & Availability Analysis – End-to-End Power BI Project  
 (SQL Server + MySQL)
 
+### 📂 GitHub Repository
+https://github.com/Arun-Kumar-Venugopal/Demand-Availability-Analysis-PowerBI
+
 ## Dashboard Overview
 This project analyzes **product demand, availability, supply shortages, profit, and loss**
 using an end-to-end Power BI workflow across **SQL Server and MySQL databases**.
@@ -8,7 +11,11 @@ using an end-to-end Power BI workflow across **SQL Server and MySQL databases**.
 ---
 
 ## Architecture
-SQL Server / MySQL → Power BI Desktop → Power BI Service
+SQL Server / MySQL → Power BI Desktop (Model + DAX) → Power BI Service
+
+- Single semantic model reused across report pages
+- Same report transitioned between SQL Server and MySQL backends
+- Published to separate workspaces for each data source
 
 ---
 
@@ -121,6 +128,19 @@ and make informed inventory decisions.
 - DAX
 - SQL
 
+## ▶️ Live Demo (Power BI Service)
+🔗 View-only reports published to Power BI Service  
+(Microsoft login required)
+
+- **SQL Server Data Source Report**:  
+  https://app.powerbi.com/links/v6oAGXMnuK?ctid=4b05e781-4500-43c7-a12b-f7a45bcd4a54&pbi_source=linkShare
+
+- **MySQL Data Source Report**:  
+  https://app.powerbi.com/links/jzcVhIHipP?ctid=4b05e781-4500-43c7-a12b-f7a45bcd4a54&pbi_source=linkShare
+
+> Note: Both reports use the same Power BI visuals and DAX logic.  
+> The purpose is to demonstrate **data source migration from SQL Server to MySQL**
+> without rebuilding the report.
 ---
 
 ## Author
