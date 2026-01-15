@@ -31,8 +31,10 @@ or excess inventory that impacts profitability.
 
 ---
 
-## Architecture
-SQL Server / MySQL → Power BI Desktop (Model + DAX) → Power BI Service
+## Architecture & Data Flow
+SQL Server / MySQL  
+→ Power BI Desktop (Power Query, DAX, Visuals)  
+→ Power BI Service (Multiple Workspaces)
 
 - Single semantic model reused across report pages
 - Same report transitioned between SQL Server and MySQL backends
