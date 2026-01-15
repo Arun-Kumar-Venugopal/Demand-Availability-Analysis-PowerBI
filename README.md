@@ -8,6 +8,10 @@ https://github.com/Arun-Kumar-Venugopal/Demand-Availability-Analysis-PowerBI
 This project analyzes **product demand, availability, supply shortages, profit, and loss**
 using an end-to-end Power BI workflow across **SQL Server and MySQL databases**.
 
+## Business Context
+This project helps **operations and supply chain teams** analyze demand versus availability across products and dates.
+It identifies **supply shortages, excess inventory, profit, and loss trends** to improve inventory planning and business optimization.
+
 ---
 
 ## Architecture
