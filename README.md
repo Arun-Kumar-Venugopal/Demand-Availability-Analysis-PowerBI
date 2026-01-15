@@ -1,10 +1,10 @@
 # Demand & Availability Analysis – End-to-End Power BI Project  
 (SQL Server + MySQL)
 
-### 📂 GitHub Repository
+### GitHub Repository
 https://github.com/Arun-Kumar-Venugopal/Demand-Availability-Analysis-PowerBI
 
-## Dashboard Overview
+## Project Overview
 This project analyzes **product demand, availability, supply shortages, profit, and loss**
 using an end-to-end Power BI workflow across **SQL Server and MySQL databases**.
 
@@ -42,7 +42,7 @@ SQL Server / MySQL
 
 ---
 
-## Business Problem
+## Operational Challenges Addressed
 Organizations need visibility into:
 - Daily demand vs availability
 - Supply shortages
@@ -173,6 +173,12 @@ and make informed inventory decisions.
 - Validating business metrics across different database platforms
 - Managing separate Power BI workspaces for different data sources
 - Publishing and maintaining reports in Power BI Service
+
+## Possible Enhancements
+- Automate refresh using gateway scheduling
+- Add alerting for supply shortages
+- Implement product-level row-level security
+- Extend analysis to forecasting demand trends
 
 ## Author
 Created by: **Arun Kumar Venugopal**
