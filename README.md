@@ -142,6 +142,14 @@ and make informed inventory decisions.
 > The purpose is to demonstrate **data source migration from SQL Server to MySQL**
 > without rebuilding the report.
 ---
+## What I Learned
+- Designing an end-to-end Power BI solution using multiple databases (SQL Server & MySQL)
+- Handling test-to-production database migration without rebuilding reports
+- Switching Power BI data sources using Power Query Advanced Editor
+- Building reusable KPI measures using DAX
+- Validating business metrics across different database platforms
+- Managing separate Power BI workspaces for different data sources
+- Publishing and maintaining reports in Power BI Service
 
 ## Author
 Created by: **Arun Kumar Venugopal**
