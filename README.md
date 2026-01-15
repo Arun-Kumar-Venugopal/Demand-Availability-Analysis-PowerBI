@@ -12,6 +12,23 @@ using an end-to-end Power BI workflow across **SQL Server and MySQL databases**.
 This project helps **operations and supply chain teams** analyze demand versus availability across products and dates.
 It identifies **supply shortages, excess inventory, profit, and loss trends** to improve inventory planning and business optimization.
 
+## Problem Statement
+The business faces challenges in balancing **product demand and availability**, leading to supply shortages
+or excess inventory that impacts profitability.
+
+## Key KPIs
+- Average Demand per Day
+- Average Availability per Day
+- Total Supply Shortage
+- Total Profit
+- Total Loss
+- Average Daily Loss
+
+## Assumptions & Limitations
+- Demand and availability are treated as daily aggregates
+- Profit and loss calculations assume constant unit price
+- Data refresh depends on source system availability
+
 ---
 
 ## Architecture
